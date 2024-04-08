@@ -23,7 +23,7 @@ body{
 .container{
     display: flex;
     transition: 0.7s ease-in-out ;
-    transform: translate(0);
+    transform: translateX(0);
 }
 
 img{
