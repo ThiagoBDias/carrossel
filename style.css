@@ -3,6 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+.navbar{
+    display: flex;
+}
+
+.navbar_contenet{
+    display: flex;
+    background-color: #ccc;
+}
 
 body {
     display: flex;
