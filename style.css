@@ -5,37 +5,33 @@
 }
 .navbar{
     display: flex;
+    background-color: #cccccc88;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: +1;
 }
 
-.navbar_contenet{
+.navbar_content{
     display: flex;
-    background-color: #ccc;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 130px;
 }
 
-body {
+.navbar_content img{
+    width: 100px;
+}
+
+.navbar_content ul{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
-    background-color: #1a1a1a;
+    list-style: none;
 }
 
-.carrossel {
-    filter: drop-shadow(0px 0px 10px #000);
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
+.navbar_content ul li {
+    padding: 0px 20px;
+    cursor: pointer;
 }
-
-.container {
-    display: flex;
-    width: 300%; /* Largura suficiente para conter todas as imagens */
-    transition: transform 0.7s ease-in-out; /* Mudei a transição para ser aplicada apenas na propriedade transform */
-}
-
-img {
-    margin-top: -100px;
-    width: 100vw; /* Cada imagem ocupa a largura total da tela */
-    height: auto;
+.carrosselCs {
+    filter: brightness(55%);
 }

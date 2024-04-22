@@ -1,0 +1,45 @@
+.carrossel {
+  filter: drop-shadow(0px 0px 10px #000);
+  overflow: hidden;
+  width: 100%; /* Defina a largura para 100% */
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Centralize horizontalmente */
+  align-items: center; /* Centralize verticalmente */
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  width: 100%; /* Largura suficiente para conter todas as imagens */
+  transition: transform 0.7s ease-in-out; /* Mudei a transição para ser aplicada apenas na propriedade transform */
+}
+
+img {
+  margin-top: -100px;
+  width: 100vw; /* Cada imagem ocupa a largura total da tela */
+  height: auto;
+}
+
+.showcase{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.showcase_content{
+  text-align: center;
+  line-height: 45px;
+}
+
+.showcase_content h1 {
+  font-size: 35px;
+  margin-bottom: -25px;
+}
+
+.showcase_content p {
+  font-size: 17px;
+}
