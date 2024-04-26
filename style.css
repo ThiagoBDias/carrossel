@@ -21,6 +21,7 @@
 
 .navbar_content img{
     width: 100px;
+    
 }
 
 .navbar_content ul{
@@ -35,3 +36,30 @@
 .carrosselCs {
     filter: brightness(55%);
 }
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin-top: -10px;
+}
+
+.footer_content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.footer_content img{
+    width: 200px;
+    height: 40px;
+}
+.footer_content ul{
+list-style: none;
+}
+.footer_content ul li{
+    line-height: 40px;
+}
+.footer_content ul li i {
+ font-size: 75px;
+} 
